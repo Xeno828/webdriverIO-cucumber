@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="performing_a_google_search1" timestamp="2018-06-19T12:17:55" time="23.264" tests="0" failures="0" errors="0" skipped="0">
+  <testsuite name="performing_a_google_search1" timestamp="2018-06-19T15:28:58" time="6.385" tests="0" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="4c40d363caa5f16c9680f1b462b58da3"/>
       <property name="suiteName" value="Performing a Google search1"/>
       <property name="capabilities" value="chrome"/>
     </properties>
   </testsuite>
-  <testsuite name="performing_the_search_action11" timestamp="2018-06-19T12:17:55" time="11.759" tests="4" failures="0" errors="1" skipped="2">
+  <testsuite name="performing_the_search_action11" timestamp="2018-06-19T15:28:58" time="3.992" tests="4" failures="0" errors="1" skipped="2">
     <properties>
       <property name="specId" value="4c40d363caa5f16c9680f1b462b58da3"/>
       <property name="suiteName" value="performing the search action11"/>
       <property name="capabilities" value="chrome"/>
     </properties>
-    <testcase classname="chrome.performing the search action11" name="I am on the Google Search page9" time="23.477"/>
-    <testcase classname="chrome.performing the search action11" name="I enter &quot;Selenium Webdriver&quot; into the search box12" time="21.829">
-      <error message="&#xA;selector needs to be typeof `string`&#xA;"/>
+    <testcase classname="chrome.performing the search action11" name="I am on the Google Search page9" time="26.518"/>
+    <testcase classname="chrome.performing the search action11" name="I enter &quot;Selenium Webdriver&quot; into the search box12" time="24.959">
+      <error message="&#xA;unknown error: call function result missing 'value'&#xA;"/>
       <system-err>
         <![CDATA[
-Error: selector needs to be typeof `string`
-    at element(input[id=Search]) - index.js:316:3
+Error: An unknown server-side error occurred while processing the command.
+    at elementIdValue("0", "Selenium Webdriver") - setValue.js:46:80
 ]]>
       </system-err>
     </testcase>
@@ -30,19 +30,19 @@ Error: selector needs to be typeof `string`
       <skipped/>
     </testcase>
   </testsuite>
-  <testsuite name="performing_a_search_action_whilst_passing_test_data_as_data_table23" timestamp="2018-06-19T12:18:06" time="11.491" tests="4" failures="0" errors="1" skipped="2">
+  <testsuite name="performing_a_search_action_whilst_passing_test_data_as_data_table23" timestamp="2018-06-19T15:29:02" time="2.374" tests="4" failures="0" errors="1" skipped="2">
     <properties>
       <property name="specId" value="4c40d363caa5f16c9680f1b462b58da3"/>
       <property name="suiteName" value="Performing a search action whilst passing test data as data table23"/>
       <property name="capabilities" value="chrome"/>
     </properties>
-    <testcase classname="chrome.Performing a search action whilst passing test data as data table23" name="I am on the Google Search page9" time="11.712"/>
-    <testcase classname="chrome.Performing a search action whilst passing test data as data table23" name="I enter &quot;Selenium Webdriver&quot; into the search box17" time="10.326">
-      <error message="&#xA;selector needs to be typeof `string`&#xA;"/>
+    <testcase classname="chrome.Performing a search action whilst passing test data as data table23" name="I am on the Google Search page9" time="22.517"/>
+    <testcase classname="chrome.Performing a search action whilst passing test data as data table23" name="I enter &quot;Selenium Webdriver&quot; into the search box17" time="20.832">
+      <error message="&#xA;unknown error: call function result missing 'value'&#xA;"/>
       <system-err>
         <![CDATA[
-Error: selector needs to be typeof `string`
-    at element(input[id=Search]) - index.js:316:3
+Error: An unknown server-side error occurred while processing the command.
+    at elementIdValue("1", "Selenium Webdriver") - setValue.js:46:80
 ]]>
       </system-err>
     </testcase>

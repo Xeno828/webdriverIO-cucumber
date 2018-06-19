@@ -5,9 +5,9 @@ class GooglePage extends Page {
    * defining elements
    */
 
-  get searchField() { return browser.element(['input[id=Search]']); }
-  get searchButton() { return browser.element('input[type=submit]'); }
-  get resultsList() { return browser.element('//div[id=rcnt]'); }
+  get searchField() { return browser.element('input[title="Search"]'); }
+  get searchButton() { return browser.element('input[type="submit"]'); }
+  get resultsList() { return browser.element('//div[id="rcnt"]'); }
 
   /**
    * definition of page methods or overwrites
