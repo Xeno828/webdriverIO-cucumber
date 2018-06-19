@@ -22,7 +22,7 @@
     "webdriver",
     "automation"
   ],
-  "author": "Amiya Pattanaik <pattnaik_amiya@yahoo.com>",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "allure-commandline": "^2.5.0",

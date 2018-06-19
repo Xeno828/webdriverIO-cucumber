@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1529406757585' stop='1529406769032'>
+    <name>Performing a Google search Performing a search action whilst passing test data as data table</name>
+    <title>Performing a Google search Performing a search action whilst passing test data as data table</title>
+    <test-cases>
+        <test-case start='1529406757585' status='passed' stop='1529406758929'>
+            <name>I am on the Google Search page</name>
+            <title>I am on the Google Search page</title>
+            <labels>
+                <label name='feature' value='Performing a Google search'/>
+                <label name='story' value='Performing a search action whilst passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/josh/practice/webdriverIO-with-cucumberBDD/test/features/google-search.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1529406757585' status='passed' stop='1529406757912'>
+                    <name>POST /wd/hub/session/7211441d-ef09-4cf0-9e82-1b87bf456a77/url</name>
+                    <title>POST /wd/hub/session/7211441d-ef09-4cf0-9e82-1b87bf456a77/url</title>
+                    <attachments>
+                        <attachment title='Request' source='06f5c79b-e65a-45ca-838d-2215ecceb4c6-attachment.json' type='application/json' size='36'/>
+                        <attachment title='Response' source='90cf7f15-1dd2-46ea-b413-8812dbc62edc-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1529406758919' status='passed' stop='1529406758927'>
+                    <name>GET /wd/hub/session/7211441d-ef09-4cf0-9e82-1b87bf456a77/title</name>
+                    <title>GET /wd/hub/session/7211441d-ef09-4cf0-9e82-1b87bf456a77/title</title>
+                    <attachments>
+                        <attachment title='Response' source='a74455e5-133e-4a6b-a311-1c032b8b6448-attachment.json' type='application/json' size='199'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1529406758930' status='broken' stop='1529406769027'>
+            <name>I enter "Selenium Webdriver" into the search box</name>
+            <title>I enter "Selenium Webdriver" into the search box</title>
+            <labels>
+                <label name='feature' value='Performing a Google search'/>
+                <label name='story' value='Performing a search action whilst passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/josh/practice/webdriverIO-with-cucumberBDD/test/features/google-search.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1529406758932' status='passed' stop='1529406769024'>
+                    <name>GET /wd/hub/session/7211441d-ef09-4cf0-9e82-1b87bf456a77/screenshot</name>
+                    <title>GET /wd/hub/session/7211441d-ef09-4cf0-9e82-1b87bf456a77/screenshot</title>
+                    <attachments>
+                        <attachment title='Response' source='1f0d0f24-1a07-40ac-a1bf-5d88a9d434c6-attachment.json' type='application/json' size='1884'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>selector needs to be typeof `string`</message>
+                <stack-trace>Error: selector needs to be typeof `string`
+                    at element(//*[@title="Search"]) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1529406769028' status='pending' stop='1529406769028'>
+            <name>I click the search button</name>
+            <title>I click the search button</title>
+            <labels>
+                <label name='feature' value='Performing a Google search'/>
+                <label name='story' value='Performing a search action whilst passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/josh/practice/webdriverIO-with-cucumberBDD/test/features/google-search.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1529406769030' status='pending' stop='1529406769030'>
+            <name>I should see a list of search results</name>
+            <title>I should see a list of search results</title>
+            <labels>
+                <label name='feature' value='Performing a Google search'/>
+                <label name='story' value='Performing a search action whilst passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/josh/practice/webdriverIO-with-cucumberBDD/test/features/google-search.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,8 +1,3 @@
-
-### WebdriverIO boilerplate code with Cucumber BDD
-
-This repository contains a collection of sample webdriverIO (Selenium - Node.js/JavaScript) projects and libraries that demonstrate how to use the tool and develop automation script using the Cucumber (v 3.0.0) BDD framework. It support ES5 to ES8 (via babel-register) and uses Grunt to manage tasks, provides utilities to read data from MS-Excel, executes SQL statements to any database for end to end testing. It generate Spec, JUNIT, Allure, JSON reporters as well.
-
 ### Installation
 
 This project is tested on ***Node v6.10.0 to v8.9.0***.  While earlier versions of node may be compatible, they have not been tested or verified.
@@ -55,13 +50,13 @@ To take full advantage of the command line and use grunt tasks you will need to 
 
   Note: While installing through sudo command - you need to provide System admin password. On windows don't use `sudo`
 
-### Run Some Sample Tests
+### Run Tests
 
 To execute the entire test suite in local development, you can use any one of the options mentioned below
 
 Option 1: `npm run test`
 
-Option 2: `grunt webdriver:test`.  This executes all features in the [`./test/features/*.feature`]  directory with a Spec reporter by default and references the `suite.yourSpecific.conf.js` file. Refer to the ./test/config of cucumber-bdd
+Option 2: `grunt webdriver:test`.  This executes all features in the [`./test/features/*.feature`]  directory with a Spec reporter by default and references the `conf.js` file. Refer to the ./test/config of cucumber-bdd
 
 To execute tests on mobile device use : `npm run test-mobile`
 
@@ -204,15 +199,6 @@ Refer to the common Javascript functions that provides clean, performant methods
 
 Use [Underscore.js](http://underscorejs.org/) already bundled inside the framework which provides over 100 functions that support both your favorite workaday functional helpers: map, filter, invoke — as well as more specialized goodies: function binding, javascript templating, creating quick indexes, deep equality testing, and so on.
 
-### Contribution
-
-Create a fork of the project into your own repository. Make all your necessary changes and create a pull request with a description on what was added or removed and details explaining the changes in lines of code. If approved, project owners will merge it.
-
 ### History
 
 Industry is moving towards Node.js / JavaScript, Angularjs, Full-Stack world. WebdriverIO, a JavaScript binding wrapper for Selenium Webdriver, was originated by Camilo Tapia's initial Selenium project called WebdriverJS, which was the first Webdriver project on NPM. In 2014, the project was renamed WebdriverIO later on. This repository is a pre-configured version of webdriverIO meant to jump-start the process of writing new test automation or adding test automation to existing node.js applications.
-
-
-### Licensing
-
-MIT
